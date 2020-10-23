@@ -1,28 +1,27 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div id="app" class="font-sans">
+        <the-hero :title="title"></the-hero>
+        <the-content></the-content>
+        <the-footer :title="title"></the-footer>
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+    import TheFooter from '@/components/TheFooter';
+    import TheHero from '@/components/TheHero';
+    import TheContent from '@/components/TheContent';
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+    export default {
+        name: 'App',
+        data () {
+            return {
+                title: 'COVID UK',
+            }
+        },
+        components: {
+            TheContent,
+            TheHero,
+            TheFooter,
+        }
+    };
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
