@@ -1,7 +1,7 @@
 <template>
     <div class="flex items-center justify-between bg-footer rounded-t-md text-white px-10
-                h-footerxs sm:px-12 sm:h-footersm md:px-20 md:h-footermd lg:px-32
-                lg:h-footerlg xl:px-40 xl:h-footerxl">
+                h-footerxs sm:px-12 sm:h-footersm md:px-20 md:h-footermd lg:px-24
+                lg:h-footerlg xl:p-footer xl:h-footerxl">
         <div class="flex flex-col text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl">
             <div>An RCCO development challenge by {{ challengeDeveloper }}</div>
             <div>Data source: {{ dataSource }}</div>

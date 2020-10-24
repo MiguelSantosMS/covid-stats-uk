@@ -5,8 +5,8 @@
                 xl:text-strongmessagexl">
         <div class="flex flex-1 mb-6 lg:mb-0">
             <base-information-box
-                class="text-danger bg-danger shadow-md
-                       p-16 mx-0 lg:p-20 lg:mx-8 xl:p-24 xl:mx-10"
+                class="text-danger bg-danger shadow-informationdangerbox
+                       p-16 mx-0 lg:mx-4 xl:p-dangerbox xl:mx-10"
                 svg-class="w-16 mx-auto my-0 mb-1 my-2"
                 icon="alert-circle"
                 icon-text="Above Average"
@@ -21,7 +21,7 @@
         <div class="flex flex-1 flex-col justify-center items-center">
             <base-information-box
                 :class="lightBoxClass"
-                class="mb-10"
+                class="mb-4 xl:mb-10"
                 :svg-class="lightBoxSvgClass"
                 icon="trending-up"
                 main-text="+300%"
@@ -47,8 +47,8 @@
         name: 'StatsNewCases',
         data () {
             return {
-                lightBoxClass: 'shadow-informationlightbox px-24 py-6 xl:px-32',
-                lightBoxSvgClass: 'w-16 mx-auto my-0',
+                lightBoxClass: 'shadow-informationlightbox px-24 py-4 xl:p-lightbox',
+                lightBoxSvgClass: 'w-16 mx-2',
                 lightBoxMainTextClass: 'tracking-tight leading-tight text-secondaryhighlightxs ' +
                     'sm:text-secondaryhighlightsm md:text-secondaryhighlightmd ' +
                     'lg:text-secondaryhighlightlg xl:text-secondaryhighlightxl',
