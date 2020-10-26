@@ -3,7 +3,7 @@
         <div class="flex items-center text-white relative">
             <base-svg class="flex" source="hero"></base-svg>
             <div class="flex flex-col items-start absolute w-full
-                    px-10 sm:px-12 md:px-20 lg:px-32 xl:p-hero">
+                    px-4 sm:px-6 md:px-10 lg:px-16 xl:p-hero">
                 <div class="flex font-condensed font-bold leading-tight text-highlightxs sm:text-highlightsm
                         md:text-highlightmd lg:text-highlightlg xl:text-highlightxl">
                     {{ title }}
