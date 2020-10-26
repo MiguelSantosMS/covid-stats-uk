@@ -1,11 +1,11 @@
 <template>
-    <div class="flex items-center justify-between text-center text-xs sm:text-sm
-                md:text-base lg:text-lg xl:text-xl p-12 flex-col lg:flex-row lg:p-govadvice">
+    <div class="flex items-center justify-between text-center text-base lg:text-lg xl:text-xl p-12
+                flex-col lg:flex-row lg:p-govadvice">
         <div v-for="(advice, index) in govAdvice" :key="index"
              class="flex flex-col mx-0 my-4 lg:m-6 xl:m-govadvice last:m-0">
             <div
                 class="font-condensed font-bold tracking-tight
-                       text-xs mb-1 lg:mb-2 xl:mb-2 sm:text-xl md:text-2xl lg:text-3xl  xl:text-4xl">
+                       mb-1 lg:mb-2 text-xl lg:text-2xl xl:text-4xl">
                 {{ advice.title }}
             </div>
             <div class="text-secondary">{{ advice.description }}</div>
