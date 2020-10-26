@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-chart p-10 sm:p-12 md:p-20 lg:p-32 xl:p-chart">
+    <div class="bg-chart p-6 sm:p-8 md:p-20 lg:p-32 xl:p-chart">
         <div class="font-condensed font-bold text-strongmessagexs sm:text-strongmessagesm
         md:text-strongmessagemd lg:text-strongmessagelg xl:text-strongmessagexl mb-12">
             Cases per day (last 7 days)

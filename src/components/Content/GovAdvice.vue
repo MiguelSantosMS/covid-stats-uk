@@ -1,5 +1,5 @@
 <template>
-    <div class="flex items-center justify-between text-center text-base lg:text-lg xl:text-xl p-12
+    <div class="flex items-center justify-between text-center text-base lg:text-lg xl:text-xl p-8
                 flex-col lg:flex-row lg:p-govadvice">
         <div v-for="(advice, index) in govAdvice" :key="index"
              class="flex flex-col mx-0 my-4 lg:m-6 xl:m-govadvice last:m-0">

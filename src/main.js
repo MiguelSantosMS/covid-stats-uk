@@ -4,6 +4,8 @@ import './styles/index.css';
 
 Vue.config.productionTip = false;
 
+document.title = 'COVID UK';
+
 new Vue({
     render: h => h(App),
 }).$mount('#app');

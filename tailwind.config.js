@@ -14,7 +14,7 @@ module.exports = {
                 informationlightbox: '0px 3px 10px rgba(0, 0, 0, 0.15)',
             },
             fontSize: {
-                strongmessagexs: '1rem',
+                strongmessagexs: '0.875rem',
                 strongmessagesm: '1.31rem',
                 strongmessagemd: '1.5rem',
                 strongmessagelg: '1.69rem',
@@ -24,7 +24,7 @@ module.exports = {
                 secondaryhighlightmd: '3.5rem',
                 secondaryhighlightlg: '3.938rem',
                 secondaryhighlightxl: '4.375rem',
-                highlightxs: '3.25rem',
+                highlightxs: '3rem',
                 highlightsm: '4.38rem',
                 highlightmd: '5rem',
                 highlightlg: '5.63rem',

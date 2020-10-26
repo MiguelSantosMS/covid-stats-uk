@@ -1,6 +1,6 @@
 <template>
     <div class="flex items-center justify-center font-bold text-center flex-col lg:flex-row text-xs sm:text-sm md:text-base
-                lg:text-lg xl:text-xl px-0 py-4 lg:p-14 xl:p-newcases text-strongmessagexs
+                lg:text-lg xl:text-xl p-0 py-4 lg:p-14 xl:p-newcases text-strongmessagexs
                 sm:text-strongmessagesm md:text-strongmessagemd lg:text-strongmessagelg
                 xl:text-strongmessagexl">
         <div class="flex flex-1 mb-6 lg:mb-0">
