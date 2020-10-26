@@ -6,8 +6,8 @@
         <div class="flex flex-1 mb-6 lg:mb-0">
             <base-information-box
                 class="text-danger bg-danger shadow-informationdangerbox
-                       p-8 mr-0 lg:mr-4 xl:p-dangerbox xl:mr-12"
-                svg-class="w-16 mx-auto my-0 mb-1 my-2"
+                       p-4 mr-0 lg:p-10 lg:mr-4 xl:p-dangerbox xl:mr-12"
+                svg-class="w-12 lg:w-16 mx-auto my-0 mb-1 my-2"
                 icon="alert-circle"
                 :icon-text="comparisonToAverageDescription"
                 icon-text-class="font-condensed w-24 leading-tight"
@@ -47,8 +47,8 @@
         name: 'StatsNewCases',
         data () {
             return {
-                lightBoxClass: 'shadow-informationlightbox px-16 py-4 xl:p-lightbox',
-                lightBoxSvgClass: 'w-16 mx-2',
+                lightBoxClass: 'shadow-informationlightbox py-2 px-12 lg:py-4 xl:p-lightbox',
+                lightBoxSvgClass: 'w-12 lg:w-16 mx-2',
                 lightBoxMainTextClass: 'tracking-tight leading-tight text-secondaryhighlightxs ' +
                     'sm:text-secondaryhighlightsm md:text-secondaryhighlightmd ' +
                     'lg:text-secondaryhighlightlg xl:text-secondaryhighlightxl',
