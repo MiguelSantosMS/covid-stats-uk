@@ -1,6 +1,6 @@
 <template>
     <div class="flex relative" ref="hero">
-        <div class="flex items-center text-white relative">
+        <div class="flex items-center text-white relative w-full">
             <base-svg class="flex" source="hero"></base-svg>
             <div class="flex flex-col items-start absolute w-full
                     px-4 sm:px-6 md:px-10 lg:px-16 xl:p-hero">
