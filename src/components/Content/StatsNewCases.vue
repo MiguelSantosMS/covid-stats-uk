@@ -3,7 +3,7 @@
                 lg:text-lg xl:text-xl p-0 py-4 lg:p-14 xl:p-newcases text-strongmessagexs
                 sm:text-strongmessagesm md:text-strongmessagemd lg:text-strongmessagelg
                 xl:text-strongmessagexl">
-        <div class="flex mb-6 lg:mb-0">
+        <div class="flex mb-6 w-full lg:w-auto lg:mb-0">
             <base-information-box
                 class="text-danger bg-danger shadow-informationdangerbox w-full
                        p-4 mr-0 lg:p-10 lg:mr-4 xl:p-dangerbox xl:mr-12"
@@ -18,7 +18,7 @@
                 description-class="text-description leading-none tracking-tighter"
             ></base-information-box>
         </div>
-        <div class="flex flex-col justify-center items-center">
+        <div class="flex flex-col w-full lg:w-auto justify-center items-center">
             <base-information-box
                 :class="lightBoxClass"
                 class="mb-4 xl:mb-12"
