@@ -42,13 +42,24 @@ module.exports = {
             padding: {
                 newcases: '5.5rem 6.1rem 6.25rem 6.38rem',
                 dangerbox: '6.719rem 6.697rem',
-                lightbox: '1.5rem 8.031rem',
                 chart: '9.44em 12.627rem 5em 12.627rem',
                 hero: '0 12.5rem',
                 footer: '0 7.25rem',
                 govadvice: '11.5rem 12rem 11.565rem 12rem',
                 button: '0.469rem 3.02rem',
-            }
+            },
+            width: {
+                dangerbox: '38.75rem',
+                lightbox: '35.629rem',
+            },
+            height: {
+                dangerbox: '23.125rem',
+                footerxs: '5.64rem',
+                footersm: '6.58rem',
+                footermd: '7.52rem',
+                footerlg: '8.46rem',
+                footerxl: '9.4rem',
+            },
         },
         fontFamily: {
             sans: ['Roboto'],
@@ -59,13 +70,6 @@ module.exports = {
             chart: '#FAFAFA',
             footer: '#1C4155',
             hover: '#333333',
-        },
-        height: {
-            'footerxs': '5.64rem',
-            'footersm': '6.58rem',
-            'footermd': '7.52rem',
-            'footerlg': '8.46rem',
-            'footerxl': '9.4rem',
         },
     },
     variants: {

@@ -1,21 +1,21 @@
 <template>
-    <div class="flex items-center justify-center font-bold text-center flex-col lg:flex-row text-xs sm:text-sm md:text-base
+    <div class="flex items-center justify-center font-condensed font-bold text-center flex-col lg:flex-row text-xs sm:text-sm md:text-base
                 lg:text-lg xl:text-xl p-0 py-4 lg:p-14 xl:p-newcases text-strongmessagexs
                 sm:text-strongmessagesm md:text-strongmessagemd lg:text-strongmessagelg
                 xl:text-strongmessagexl">
         <div class="flex mb-6 lg:mb-0">
             <base-information-box
                 class="justify-center text-danger bg-danger shadow-informationdangerbox w-full
-                       p-4 mr-0 lg:p-10 lg:mr-4 xl:p-dangerbox xl:mr-12"
-                svg-class="w-8 lg:w-12 xl:w-16 mx-auto my-0 mb-1 my-2"
+                       p-4 mr-0 lg:p-10 lg:mr-4 xl:p-dangerbox xl:mr-12 xl:h-dangerbox xl:w-dangerbox"
+                svg-class="w-10 lg:w-12 xl:w-20 mx-auto my-0 mb-1 my-2"
                 icon="alert-circle"
                 :icon-text="comparisonToAverageDescription"
-                icon-text-class="font-condensed w-24 leading-tight"
+                icon-text-class="w-24 leading-tight"
                 :main-text="newCasesYesterday"
-                main-text-class="font-condensed leading-tight text-highlightxs sm:text-highlightsm
+                main-text-class="leading-tight text-highlightxs sm:text-highlightsm
                         md:text-highlightmd lg:text-highlightlg xl:text-highlightxl"
                 description="New Cases Yesterday"
-                description-class="text-description leading-none tracking-tighter"
+                description-class="text-description leading-none"
             ></base-information-box>
         </div>
         <div class="flex flex-col justify-center items-center">
@@ -48,12 +48,12 @@
         data () {
             return {
                 lightBoxClass: 'justify-center shadow-informationlightbox py-2 px-8 lg:py-4 ' +
-                    'xl:p-lightbox w-full',
-                lightBoxSvgClass: 'w-8 lg:w-12 xl:w-16 mx-2',
-                lightBoxMainTextClass: 'tracking-tight leading-tight text-secondaryhighlightxs ' +
+                    'xl:p-6 xl:h-40 xl:w-lightbox',
+                lightBoxSvgClass: 'w-10 lg:w-12 xl:w-20 mx-2',
+                lightBoxMainTextClass: 'text-left tracking-tight leading-tight text-secondaryhighlightxs ' +
                     'sm:text-secondaryhighlightsm md:text-secondaryhighlightmd ' +
                     'lg:text-secondaryhighlightlg xl:text-secondaryhighlightxl',
-                lightBoxDescriptionClass: 'text-left text-description leading-tight font-condensed text-xs ' +
+                lightBoxDescriptionClass: 'text-left text-description leading-tight text-xs ' +
                     'sm:text-sm md:text-base lg:text-lg xl:text-xl leading-none tracking-tighter'
             };
         },
