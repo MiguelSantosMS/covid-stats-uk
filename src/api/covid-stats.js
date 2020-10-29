@@ -125,7 +125,10 @@ export function getComparisonFromPreviousDay (overviewData) {
     } else if (newCasesDiffRelativeToPrevDayPct < 0) {
         comparisonText = 'Decrease';
         comparisonIcon = 'trending-down';
-        newCasesDiffRelativeToPrevDayPct = `${newCasesDiffRelativeToPrevDayPct}%`;
+
+        // Make it positive so we can show a positive decrease
+        newCasesDiffRelativeToPrevDayPct = Math.abs(newCasesDiffRelativeToPrevDayPct);
+        newCasesDiffRelativeToPrevDayPct = `+${newCasesDiffRelativeToPrevDayPct}%`;
     } else {
         comparisonText = 'No Increase';
         comparisonIcon = 'no-diff';
