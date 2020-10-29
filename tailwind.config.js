@@ -45,7 +45,7 @@ module.exports = {
                 chart: '9.44em 12.627rem 5em 12.627rem',
                 hero: '0 12.5rem',
                 footer: '0 7.25rem',
-                govadvice: '11.5rem 12rem 11.565rem 12rem',
+                govadvice: '11.5rem 10.5rem 11.565rem 10.5rem',
                 button: '0.469rem 3.02rem',
             },
             width: {
